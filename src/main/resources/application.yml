@@ -1,16 +1,11 @@
-
-#Local MongoDB config
 spring:
   data:
     mongodb:
-      # authentication-database: admin
       host: localhost
       port: 27017
       database: user_db
-      username: admin # root
-      #password: # root # 123456
+      username: admin
 
-  # App config
 server:
   port: 8102
   servlet:
